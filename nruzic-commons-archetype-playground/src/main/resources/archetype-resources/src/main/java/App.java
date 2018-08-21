@@ -3,7 +3,7 @@
 #set( $symbol_escape = '\' )
 package ${package};
 
-public abstract class App
+public class App
 {
     public static void main( String[] args )
     {
