@@ -8,7 +8,7 @@
     <parent>
         <groupId>com.github.nruzic.commons.master</groupId>
         <artifactId>nruzic-commons-master</artifactId>
-        <version>1.0.0-alpha4</version>
+        <version>1.0.0</version>
         <relativePath></relativePath>
     </parent>
 
@@ -21,6 +21,7 @@
 
     <modules>
         <module>nruzic-commons-archetype-playground</module>
+        <module>nruzic-commons-archetype-ad</module>
     </modules>
 
     <build>

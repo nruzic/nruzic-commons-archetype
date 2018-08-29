@@ -1,0 +1,71 @@
+page:
+  layout: portrait
+  size: A4
+  margin: [34mm, 25mm, 34mm, 25mm]
+  margin_inner: 44mm
+  margin_outer: 25mm
+base:
+  align: justify
+  font_color: #000000
+  font_family: Helvetica
+  font_size: 12
+  line_height_length: 17
+  line_height: $base_line_height_length / $base_font_size
+vertical_spacing: $base_line_height_length
+link:
+  font_color: #002FA7
+title_page:
+  align: left
+  background_image: image:../images/line-a4-for-oneline-title.png[]
+  title:
+    font:
+      size: 24
+    top: 15%
+  subtitle:
+    font:
+      size: 20
+  logo:
+    image: image:../images/logo.png[width=80]
+    align: right
+    top: 1%
+  revision:
+    margin_top: 10mm
+toc:
+  dot_leader:
+    content: " "
+  h2:
+    font:
+      style: bold
+header:
+  height: 20mm
+  line_height: 1
+  vertical_align: bottom
+  font:
+    size: 10
+  recto:
+    content:
+      left: image:../images/logo-no-name.png[width=20]
+      right: '{chapter-title}'
+  verso:
+    content:
+      left: '{document-title}'
+      right: image:../images/logo-no-name.png[width=20]
+footer:
+  height: 20mm
+  line_height: 1
+  font:
+    size: 10
+  recto:
+    content:
+      left: '{page-number}'
+      right: '{_docnumber} | {_project-builddate}'
+  verso:
+    content:
+      left: '{_docnumber} | {_project-builddate}'
+      right: '{page-number}'
+heading:
+  font:
+    size: 17
+    style: bold
+  line_height: 1.2
+  margin_bottom: $vertical_spacing
