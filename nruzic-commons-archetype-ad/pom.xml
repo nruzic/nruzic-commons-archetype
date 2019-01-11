@@ -16,4 +16,17 @@
     <name>nruzic commons archetype ad</name>
     <description>Architecture Description archetype</description>
 
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-checkstyle-plugin</artifactId>
+                    <configuration>
+                        <resourceExcludes>**/App.java,**/AppTest.java</resourceExcludes>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
 </project>
